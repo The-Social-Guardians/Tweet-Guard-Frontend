@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    @apply h-full scroll-smooth font-poppins text-xs md:text-sm;
+  }
+
+  body {
+    @apply relative min-h-full bg-secondary text-primary;
+  }
+
+  .nav-menu--active {
+    @apply brightness-[94%] contrast-[96%] hue-rotate-[192deg] invert-[7%] saturate-[2977%] sepia-[19%];
+  }
+
+  .form-input {
+    @apply my-2 w-full rounded border-0 bg-neutral-200 p-3 py-4 text-xl text-secondary outline-0 transition-colors focus:bg-neutral-100;
+  }
+
+  .temp > * {
+    @apply bg-red-400/0;
+  }
+}
