@@ -10,7 +10,7 @@ function Slide({ slideNumber, slideImage, slideText }) {
         src={`/assets/images/${slideImage}`}
         className="h-full w-full object-cover"
       />
-      <p className="absolute bottom-0 left-0 right-0 bg-black/70 p-2 text-center text-sm lg:text-base">
+      <p className="absolute bottom-0 left-0 right-0 bg-black/50 p-2 text-center text-sm backdrop-blur-xl lg:text-base">
         {slideText}
       </p>
     </div>

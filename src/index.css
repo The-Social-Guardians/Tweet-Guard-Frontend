@@ -16,10 +16,35 @@
   }
 
   .form-input {
-    @apply my-2 w-full rounded border-0 bg-neutral-200 p-3 py-4 text-xl text-secondary outline-0 transition-colors focus:bg-neutral-100;
+    @apply relative my-3 w-full rounded border-0 bg-neutral-200 p-3 py-4 text-xl text-secondary outline-0 transition-colors focus:bg-primary;
   }
 
-  .temp > * {
-    @apply bg-red-400/0;
+  .form-input--invalid {
+    @apply mt-5 ring-2 ring-red-600;
+  }
+
+  .form-invalid-message {
+    @apply absolute top-0 text-sm font-semibold text-red-500 opacity-0 transition-[top_opacity];
+  }
+
+  .form-invalid-message--show {
+    @apply -top-1.5 opacity-100;
+  }
+
+  .drop-zone {
+    @apply my-4 flex h-20 w-full flex-col items-center justify-center outline-neutral-400/50 lg:h-72 lg:w-2/3 lg:justify-between lg:p-4 lg:outline-dashed;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-primary;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-popping;
   }
 }

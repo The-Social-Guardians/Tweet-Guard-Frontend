@@ -9,7 +9,7 @@ function ListItem({ targetSection, linkIcon, linkText }) {
 
       <a
         href={`#${targetSection}`}
-        className="relative grow font-semibold uppercase text-secondary md:text-xl lg:text-primary lg:after:absolute lg:after:left-3 lg:after:right-3 lg:after:bottom-0 lg:after:h-0.5 lg:after:scale-0 lg:after:bg-popping lg:after:transition-transform lg:hover:after:scale-100"
+        className="relative grow font-semibold uppercase text-secondary md:text-2xl lg:text-xl lg:text-primary lg:after:absolute lg:after:left-3 lg:after:right-3 lg:after:bottom-0 lg:after:h-0.5 lg:after:scale-0 lg:after:bg-popping lg:after:transition-transform lg:hover:after:scale-100"
       >
         {linkText}
       </a>
