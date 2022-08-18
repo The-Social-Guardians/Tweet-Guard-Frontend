@@ -4,6 +4,7 @@ function NavFooter() {
   return (
     <article className="absolute bottom-8 left-0 right-0 text-center text-secondary lg:opacity-0">
       <div className="outline-3 mx-auto mb-4 flex h-28 w-28 items-center justify-center rounded-full outline outline-secondary">
+        {/* Dummy Icon. Must be replaced with the original one... */}
         <img
           src="/assets/icons/shield.svg"
           alt="Dummy logo"
