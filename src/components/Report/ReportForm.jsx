@@ -114,7 +114,7 @@ function ReportForm() {
         <div className="drop-zone" {...getRootProps()}>
           <div className="hidden lg:block">
             <img
-              src="/public/assets/icons/upload-file.svg"
+              src="/assets/icons/upload-file.svg"
               className="mx-auto h-20 w-20 invert filter"
             />
             <p className="drop-zone-text text-xl">
