@@ -1,0 +1,58 @@
+{
+  "contributors": [
+    {
+      "name": "Contributor 1",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    },
+    {
+      "name": "Contributor 2",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    },
+    {
+      "name": "Contributor 3",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    },
+    {
+      "name": "Contributor 4",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    },
+    {
+      "name": "Contributor 5",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    },
+    {
+      "name": "Contributor 6",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    },
+    {
+      "name": "Contributor 7",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    },
+    {
+      "name": "Contributor 8",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    },
+    {
+      "name": "Contributor 9",
+      "image": "/assets/icons/contributor.png",
+      "twitter": "twitter-url",
+      "github": "github-url"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    @apply h-full scroll-smooth font-poppins text-xs md:text-sm;
+  }
+
+  body {
+    @apply relative min-h-full bg-secondary text-primary;
+  }
+
+  .nav-menu--active {
+    @apply brightness-[94%] contrast-[96%] hue-rotate-[192deg] invert-[7%] saturate-[2977%] sepia-[19%];
+  }
+
+  .form-input {
+    @apply relative my-3 w-full rounded border-0 bg-neutral-200 p-3 py-4 text-xl text-secondary outline-0 transition-colors focus:bg-primary;
+  }
+
+  .form-input--invalid {
+    @apply mt-5 ring-2 ring-red-600;
+  }
+
+  .form-invalid-message {
+    @apply absolute top-0 text-sm font-semibold text-red-500 opacity-0 transition-[top_opacity];
+  }
+
+  .form-invalid-message--show {
+    @apply -top-1.5 opacity-100;
+  }
+
+  .drop-zone {
+    @apply my-4 flex h-20 w-full flex-col items-center justify-center outline-neutral-400/50 lg:h-72 lg:w-2/3 lg:justify-between lg:p-4 lg:outline-dashed;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-primary;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-popping;
+  }
+}
