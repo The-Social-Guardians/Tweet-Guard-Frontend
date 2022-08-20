@@ -1,26 +1,25 @@
 {
   "name": "tweet-guard-frontend",
-	"version": "0.0.0-development",
+  "version": "0.0.0-development",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-		"commit": "cz",
-		"semantic-release": "semantic-release --branches main"
+    "commit": "cz",
+    "semantic-release": "semantic-release --branches main"
   },
   "repository": {
-		"type": "git",
-		"url": "https://github.com/Dun-sin/Tweet-Guard-Frontend.git"
-	},
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/Dun-sin/Tweet-Guard-Frontend/issues"
-	},
-	"homepage": "https://github.com/Dun-sin/Tweet-Guard-Frontend#readme",
+    "type": "git",
+    "url": "https://github.com/Dun-sin/Tweet-Guard-Frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dun-sin/Tweet-Guard-Frontend/issues"
+  },
+  "homepage": "https://github.com/Dun-sin/Tweet-Guard-Frontend#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -37,12 +36,12 @@
     "tailwindcss": "^3.1.7",
     "vite": "^3.0.0",
     "commitizen": "^4.2.5",
-		"cz-conventional-changelog": "^3.3.0",
-		"semantic-release": "^19.0.3"
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^19.0.3"
   },
   "config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	}
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
