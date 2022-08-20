@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dun-sin/Tweet-Guard-Frontend.git"
+    "url": "https://github.com/The-Social-Guardians/Tweet-Guard-Frontend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dun-sin/Tweet-Guard-Frontend/issues"
+    "url": "https://github.com/The-Social-Guardians/Tweet-Guard-Frontend/issues"
   },
-  "homepage": "https://github.com/Dun-sin/Tweet-Guard-Frontend#readme",
+  "homepage": "https://github.com/The-Social-Guardians/Tweet-Guard-Frontend#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
