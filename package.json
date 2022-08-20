@@ -1,0 +1,30 @@
+{
+	"name": "tweet-guard-frontend",
+	"version": "0.0.0-development",
+	"description": "",
+	"scripts": {
+		"commit": "cz",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"semantic-release": "semantic-release --branches main"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Dun-sin/Tweet-Guard-Frontend.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Dun-sin/Tweet-Guard-Frontend/issues"
+	},
+	"homepage": "https://github.com/Dun-sin/Tweet-Guard-Frontend#readme",
+	"devDependencies": {
+		"commitizen": "^4.2.5",
+		"cz-conventional-changelog": "^3.3.0",
+		"semantic-release": "^19.0.3"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
