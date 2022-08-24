@@ -75,7 +75,7 @@ git add .
 3. Commit your changes with
 
 ```bash
-git commit -m "Appropriate Commit Message"
+git cz
 ```
 
 4. Push your changes
