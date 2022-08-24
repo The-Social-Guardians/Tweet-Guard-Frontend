@@ -36,30 +36,32 @@ function Header() {
     <header
       className={`${
         isNavMenuActive ? "bg-transparent" : "bg-secondary"
-      } sticky top-0 z-10 flex items-center justify-between p-4 md:px-10 lg:translate-y-0 lg:p-5 lg:px-20`}
+      } sticky top-0 z-10 flex justify-center p-4 md:px-10 lg:translate-y-0 lg:p-5 lg:px-20`}
     >
-      <button
-        className={`menu relative z-40 transition-transform duration-500 lg:hidden ${menuButtonTransform}`}
-        onClick={toggleNavMenu}
-      >
-        <img
-          src="./assets/icons/menu.svg"
-          alt="Responsive Menu"
-          className={`h-6 w-6 filter ${
-            isNavMenuActive ? "nav-menu--active" : "invert"
-          } pointer-events-none`}
-        />
-      </button>
+      <section className="center-focus">
+        <button
+          className={`menu relative z-40 transition-transform duration-500 lg:hidden ${menuButtonTransform}`}
+          onClick={toggleNavMenu}
+        >
+          <img
+            src="./assets/icons/menu.svg"
+            alt="Responsive Menu"
+            className={`h-6 w-6 filter ${
+              isNavMenuActive ? "nav-menu--active" : "invert"
+            } pointer-events-none`}
+          />
+        </button>
 
-      <Navbar showMenu={isNavMenuActive} />
+        <Navbar showMenu={isNavMenuActive} />
 
-      <h2
-        className={`${
-          isNavMenuActive && "opacity-0"
-        } text-xl font-semibold uppercase transition-opacity duration-500 lg:text-3xl`}
-      >
-        Tweet Guard
-      </h2>
+        <h2
+          className={`${
+            isNavMenuActive && "opacity-0"
+          } text-xl font-semibold uppercase transition-opacity duration-500 lg:text-3xl`}
+        >
+          Tweet Guard
+        </h2>
+      </section>
     </header>
   );
 }

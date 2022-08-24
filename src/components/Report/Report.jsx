@@ -8,9 +8,11 @@ function Report() {
       className="flex flex-col items-center justify-center p-4 pb-0 pt-24 md:px-10 lg:px-20"
       id="report"
     >
-      <ReportIntro />
-      <ReportForm />
-      <Separator />
+      <section className="center-focus flex-col">
+        <ReportIntro />
+        <ReportForm />
+        <Separator />
+      </section>
     </section>
   );
 }
