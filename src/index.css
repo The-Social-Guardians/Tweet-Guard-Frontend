@@ -11,6 +11,10 @@
     @apply relative min-h-full bg-secondary text-primary;
   }
 
+  .center-focus {
+    @apply flex w-full max-w-full-width items-center justify-between;
+  }
+
   .nav-menu--active {
     @apply brightness-[94%] contrast-[96%] hue-rotate-[192deg] invert-[7%] saturate-[2977%] sepia-[19%];
   }
