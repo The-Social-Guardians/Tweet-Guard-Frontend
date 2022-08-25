@@ -10,7 +10,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        "hero-image": "url('/assets/images/hero-bg-main.png')",
+        "hero-image": "url('/assets/images/hero-bg.png')",
       },
 
       fontFamily: {
