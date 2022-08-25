@@ -12,13 +12,7 @@ function ContributorsList() {
   }, []);
 
   return (
-    <div
-      className={`mt-10 grid h-96 w-full pb-10 grid-cols-${
-        contributors.length >= 2 ? "2" : contributors.length
-      } place-items-center gap-12 gap-y-16 overflow-y-auto overflow-x-hidden p-4 md:mt-14 md:grid-cols-${
-        contributors.length >= 3 ? "3" : contributors.length
-      } lg:w-2/3`}
-    >
+    <div className="mt-10 grid h-96 w-full grid-cols-2 place-items-center gap-12 gap-y-16 overflow-y-auto overflow-x-hidden p-4 pb-10 md:mt-14 md:grid-cols-3 lg:w-2/3">
       {contributors.length > 0 &&
         contributors.map((contributor, index) => (
           <ContributorCard
