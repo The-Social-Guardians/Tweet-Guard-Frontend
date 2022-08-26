@@ -18,7 +18,7 @@ function ContributorsList() {
           <ContributorCard
             name={contributor["github-name"]}
             image={`${githubAvatarBaseURL}/${contributor["github-username"]}`}
-            twitter={contributor.twitter}
+            twitter={contributor["twitter-url"]}
             github={`${githubProfileBaseURL}/${contributor["github-username"]}`}
             key={index}
           />

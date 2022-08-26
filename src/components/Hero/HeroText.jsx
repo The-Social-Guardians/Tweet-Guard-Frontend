@@ -15,13 +15,13 @@ function HeroText() {
       <div className="mt-8 flex flex-col items-center justify-between gap-4 p-0.5 md:mt-20 md:flex-row lg:mt-28">
         <a
           href="#cta"
-          className="flex w-3/4 items-center justify-center rounded-sm bg-popping p-2 py-4 text-lg font-semibold uppercase text-secondary md:w-1/2"
+          className="hero-link animate-pulse-custom bg-popping text-secondary hover:animate-none"
         >
           Know More
         </a>
         <a
           href="#report"
-          className="flex w-3/4 items-center justify-center rounded-sm p-2 py-4 text-lg font-semibold uppercase ring-2 ring-inset ring-slate-300 transition-[shadow_colors] hover:ring-popping md:w-1/2"
+          className="hero-link ring-2 ring-inset ring-slate-300 transition-[shadow_colors] hover:ring-popping"
         >
           Report Abuser
         </a>
