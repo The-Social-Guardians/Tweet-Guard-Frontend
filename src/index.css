@@ -19,6 +19,10 @@
     @apply brightness-[94%] contrast-[96%] hue-rotate-[192deg] invert-[7%] saturate-[2977%] sepia-[19%];
   }
 
+  .hero-link {
+    @apply flex w-3/4 items-center justify-center rounded-sm p-2 py-4 text-lg font-semibold uppercase md:w-1/2;
+  }
+
   .form-input {
     @apply relative my-3 w-full rounded border-0 bg-neutral-200 p-3 py-4 text-xl text-secondary outline-0 transition-colors focus:bg-primary;
   }
